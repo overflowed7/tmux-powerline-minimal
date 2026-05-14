@@ -4,8 +4,6 @@ A minimal and clean theme manager for [`tmux-powerline`](https://github.com/erik
 
 `tmux-powerline-minimal` adds a small `tp` command to switch themes, toggle transparency, change separator shapes, and keep the tmux status bar readable without manually editing tmux configuration files.
 
-This project is not a replacement for `tmux-powerline`. It is a lightweight overlay that provides themes, a small switcher, and a few compact custom segments.
-
 ---
 
 ## Features
@@ -257,40 +255,7 @@ Common tmux-powerline segments used by themes:
 | `time` | Local time |
 | `utc_time` | UTC time |
 
----
-
-## Load average
-
-The three values shown by the `load` segment are Linux load average values:
-
-```txt
-1 minute, 5 minutes, 15 minutes
-```
-
-Example:
-
-```txt
-0.41, 0.86, 0.87
-```
-
-This is useful to quickly see if the machine is under heavy load.
-
----
-
-## zsh vi-mode integration
-
-The `zvm_mode` segment displays the current zsh vi mode:
-
-```txt
-VI:I  insert mode
-VI:N  normal mode
-VI:V  visual mode
-VI:R  replace mode
-```
-
-This works best with `zsh-vi-mode`.
-
----
+--
 
 ## File layout
 
