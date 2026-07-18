@@ -5,7 +5,7 @@ A minimal and clean theme manager for [`tmux-powerline`](https://github.com/erik
 
 `tmux-powerline-minimal` adds a small `tp` command to switch themes, toggle transparency, change separator shapes, and keep the tmux status bar readable without manually editing tmux configuration files.
 
-![[./screenshots/darkvoid.png]]
+![DarkVoid theme](./screenshots/darkvoid.png)
 
 ---
 
